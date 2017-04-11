@@ -10,5 +10,6 @@ Rails.application.routes.draw do
 
   get '/kitten' => 'pages#kitten'
 
-  # get '/kitten/:size' => 'pages#kitten'
+  get '/kittens' => 'pages#kittens'
+  
 end
