@@ -9,7 +9,10 @@ Rails.application.routes.draw do
   get '/contest' => 'pages#contest'
 
   get '/kitten' => 'pages#kitten'
-
   get '/kittens' => 'pages#kittens'
-  
+
+  get '/secrets/:magic_word' => 'pages#check'
+  get '/secrets' => 'pages#secrets'
+
+
 end
